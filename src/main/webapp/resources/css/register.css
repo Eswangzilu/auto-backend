@@ -1,0 +1,27 @@
+.main-area {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.return-to-main-page  {
+    text-decoration: none;
+}
+
+.login-main-area input, .login-main-area button {
+    width: 200px;
+    height: 30px;
+}
+
+.col-1, .col-2 {
+    width: 150px;
+    height: 30px;
+}
+
+.label-font {
+    font-family: "Courier New";
+    text-align: center;
+}
+
