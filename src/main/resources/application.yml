@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: auto-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/auto?allowPublicKeyRetrieval=true&useSSL=false
+    username: dev_username
+    password: dev_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        c3p0:
+          max_size: 200
+          min_size: 10
+          max_statements: 50
+        format_sql: true
+  jackson:
+    property-naming-strategy: LOWER_CAMEL_CASE
