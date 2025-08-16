@@ -141,7 +141,7 @@ Delete users and this function will return users who are NOT deleted.
   ]
   ```
 
-  #### 5. Status check
+#### 5. Status check
 
 - **Endpoint**: `GET /check`
 - **Full Path**: `http://localhost:8080/check`

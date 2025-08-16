@@ -3,8 +3,8 @@ spring:
     name: auto-backend
   datasource:
     url: jdbc:mysql://localhost:3306/auto?allowPublicKeyRetrieval=true&useSSL=false
-    username: dev_username
-    password: dev_password
+    username: root
+    password: P@ssw0rd
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: false
