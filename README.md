@@ -3,6 +3,7 @@
 ```
 Author: ZILU WANG
 ```
+You can find the image of this project at Docker Hub: https://hub.docker.com/r/zilu02/clock
 
 ## User Management REST API Docs
 
